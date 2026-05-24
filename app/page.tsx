@@ -14,23 +14,47 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(251,146,60,0.22),transparent_35%)]" />
 
         <header className="relative z-10 max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <div className="w-12 h-12 rounded-2xl bg-orange-500/20 border border-orange-300/30 flex items-center justify-center font-black text-orange-300">
-              GP
-            </div>
-
-            <div>
-              <div className="font-black tracking-wide">Gebrüder Peters</div>
-              <div className="text-xs text-orange-200/80">Polska sp. z o.o.</div>
-            </div>
-          </div>
+          <div className="flex items-center">
+  <img
+    src="/logo-white.png"
+    alt="Gebrüder Peters Polska"
+    className="h-16 w-auto"
+  />
+</div>
 
           <nav className="hidden md:flex items-center gap-8 text-sm text-white/80">
-            <a href="#uslugi" className="hover:text-orange-300 transition">Usługi</a>
-            <a href="#realizacje" className="hover:text-orange-300 transition">Realizacje</a>
-            <a href="#proces" className="hover:text-orange-300 transition">Proces</a>
-            <a href="#kontakt" className="hover:text-orange-300 transition">Kontakt</a>
-          </nav>
+  <a href="#uslugi" className="hover:text-cyan-300 transition">
+    Usługi
+  </a>
+
+  <a href="#realizacje" className="hover:text-cyan-300 transition">
+    Realizacje
+  </a>
+
+  <a href="#proces" className="hover:text-cyan-300 transition">
+    Proces
+  </a>
+
+  <a
+    href="https://wroclaw-klimatyzacja.pl"
+    target="_blank"
+    className="hover:text-cyan-300 transition"
+  >
+    Klimatyzacja
+  </a>
+
+  <a
+    href="https://wroclaw-pv.pl"
+    target="_blank"
+    className="hover:text-cyan-300 transition"
+  >
+    Fotowoltaika
+  </a>
+
+  <a href="#kontakt" className="hover:text-cyan-300 transition">
+    Kontakt
+  </a>
+</nav>
 
           <a
             href="tel:+48730230919"
