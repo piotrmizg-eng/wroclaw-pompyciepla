@@ -36,7 +36,7 @@ export default function Home() {
   </a>
 
   <a
-    href="https://wroclaw-klimatyzacja.pl"
+    href="https://wroclaw-klima.pl"
     target="_blank"
     className="hover:text-cyan-300 transition"
   >
